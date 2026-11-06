@@ -1,6 +1,6 @@
 <div align="center">
 
-# AVYTRIX Partner Desk
+# RosieAVYTRIX Partner Desk
 ### Kết nối hôm nay. Hợp tác ngày mai.
 
 Một workspace nhỏ để theo dõi cơ hội hợp tác, giai đoạn và bước tiếp theo.
@@ -9,13 +9,13 @@ Một workspace nhỏ để theo dõi cơ hội hợp tác, giai đoạn và bư
 
 </div>
 
-> Demo portfolio của AVYTRIX, phát triển với sự hỗ trợ của Codex. Sáu cơ hội, tên nhóm và giá trị ban đầu đều là dữ liệu minh họa; không đại diện khách hàng, hợp đồng hay doanh thu thực tế.
+> Demo portfolio của RosieAVYTRIX, phát triển với sự hỗ trợ của Codex. Sáu cơ hội, tên nhóm và giá trị ban đầu đều là dữ liệu minh họa; không đại diện khách hàng, hợp đồng hay doanh thu thực tế.
 
 ## Vì sao có Partner Desk?
 
 Sau một cuộc trò chuyện, cơ hội hợp tác dễ bị rơi vào những ghi chú rời rạc: đã trao đổi đến đâu, lần tới làm gì, ngày nào cần liên hệ lại? Partner Desk đưa ba câu hỏi đó lên một màn hình gọn, đủ để minh họa trải nghiệm quản lý quan hệ đối tác.
 
-Dự án bổ sung cho **AVYTRIX Project Brief**: Project Brief giúp thống nhất đề bài; Partner Desk giúp theo dõi cơ hội và hành động tiếp theo. Hai demo có liên kết điều hướng, chưa đồng bộ dữ liệu với nhau.
+Dự án bổ sung cho **RosieAVYTRIX Project Brief**: Project Brief giúp thống nhất đề bài; Partner Desk giúp theo dõi cơ hội và hành động tiếp theo. Hai demo có liên kết điều hướng, chưa đồng bộ dữ liệu với nhau.
 
 ## Trải nghiệm trong 60 giây
 
@@ -26,6 +26,10 @@ Dự án bổ sung cho **AVYTRIX Project Brief**: Project Brief giúp thống nh
 5. Chọn **Xuất CSV** để tải danh sách theo bộ lọc hiện tại.
 
 Nháp được lưu trên trình duyệt. Dùng **Xóa dữ liệu** để bắt đầu workspace trống; **Nạp lại mẫu** thay thế toàn bộ bản ghi bằng dữ liệu minh họa, sau bước xác nhận.
+
+## Nhận diện thương hiệu
+
+Tên giao diện, nội dung xuất và liên kết GitHub đã đồng bộ thành **RosieAVYTRIX**. URL hosting và khóa lưu nháp được giữ để các bản nháp hiện có tiếp tục sử dụng.
 
 ## Tính năng
 
@@ -63,7 +67,7 @@ dist/
   style.css        Thiết kế responsive và hộp thoại mobile
   app.js           CRUD, render an toàn, lưu nháp và xuất file
   model.js         Giai đoạn, dữ liệu mẫu, tổng hợp, tìm kiếm và CSV
-  icon.svg         Biểu tượng AVYTRIX
+  icon.svg         Biểu tượng RosieAVYTRIX
 tests/
   model.test.js    Kiểm tra logic dữ liệu
 .github/workflows/
@@ -101,6 +105,6 @@ Kiểm tra trình duyệt: tạo cơ hội, sửa giai đoạn, tổng quan cậ
 - Backend có xác thực, phân quyền và lịch sử chỉnh sửa.
 - Liên kết brief với cơ hội sau khi thống nhất cách lưu và chia sẻ dữ liệu.
 
-## Hợp tác cùng AVYTRIX
+## Hợp tác cùng RosieAVYTRIX
 
 [Chia sẻ bài toán của bạn](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new): quy trình hiện tại, người sử dụng, kết quả mong muốn và phạm vi thử nghiệm.

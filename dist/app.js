@@ -20,5 +20,5 @@ $('#search').oninput=e=>{query=e.target.value;render();};$('#sort').onchange=e=>
 function resetFilters(){query='';stage='all';sort='next';$('#search').value='';$('#sort').value='next';}
 $('#load-demo').onclick=()=>{if(!confirm('Thay toàn bộ dữ liệu hiện tại bằng 6 cơ hội mẫu? Hãy xuất CSV trước nếu cần giữ lại.'))return;rows=demo();resetFilters();save();toast('Đã nạp dữ liệu minh họa.');};
 $('#clear').onclick=()=>{if(!confirm('Xóa toàn bộ cơ hội trên thiết bị? Hãy xuất CSV trước nếu cần giữ lại.'))return;rows=[];resetFilters();save();toast('Đã xóa dữ liệu trên thiết bị.');};
-$('#export').onclick=()=>{const data=visible(rows,{query,stage,sort}),url=URL.createObjectURL(new Blob([csv(data)],{type:'text/csv;charset=utf-8'})),a=node('a');a.href=url;a.download='avytrix-partners-'+localDate()+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast(`Đã xuất ${data.length} cơ hội theo bộ lọc hiện tại.`);};
+$('#export').onclick=()=>{const data=visible(rows,{query,stage,sort}),url=URL.createObjectURL(new Blob([csv(data)],{type:'text/csv;charset=utf-8'})),a=node('a');a.href=url;a.download='rosieavytrix-partners-'+localDate()+'.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast(`Đã xuất ${data.length} cơ hội theo bộ lọc hiện tại.`);};
 render();
