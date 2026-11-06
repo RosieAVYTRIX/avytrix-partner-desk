@@ -5,7 +5,7 @@
 
 Một workspace nhỏ để theo dõi cơ hội hợp tác, giai đoạn và bước tiếp theo.
 
-**[Mở bản chạy thử ↗](https://avytrix-partner-desk.phuongleproea.chatgpt.site)** · [Project Brief](https://avytrix-project-brief.phuongleproea.chatgpt.site) · [Đề xuất hợp tác](https://github.com/phuongleproea-blip/phuongleproea-blip/issues/new)
+**[Mở bản chạy thử ↗](https://avytrix-partner-desk.phuongleproea.chatgpt.site)** · [Project Brief](https://avytrix-project-brief.phuongleproea.chatgpt.site) · [Đề xuất hợp tác](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new)
 
 </div>
 
@@ -42,7 +42,7 @@ Nháp được lưu trên trình duyệt. Dùng **Xóa dữ liệu** để bắt
 Cần Python 3 cho HTTP server. Node.js 18+ chỉ cần khi chạy kiểm tra.
 
 ```bash
-git clone https://github.com/phuongleproea-blip/avytrix-partner-desk.git
+git clone https://github.com/RosieAVYTRIX/avytrix-partner-desk.git
 cd avytrix-partner-desk
 python3 -m http.server 4174 --directory dist
 ```
@@ -103,4 +103,4 @@ Kiểm tra trình duyệt: tạo cơ hội, sửa giai đoạn, tổng quan cậ
 
 ## Hợp tác cùng AVYTRIX
 
-[Chia sẻ bài toán của bạn](https://github.com/phuongleproea-blip/phuongleproea-blip/issues/new): quy trình hiện tại, người sử dụng, kết quả mong muốn và phạm vi thử nghiệm.
+[Chia sẻ bài toán của bạn](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new): quy trình hiện tại, người sử dụng, kết quả mong muốn và phạm vi thử nghiệm.
