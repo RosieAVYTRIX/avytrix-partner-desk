@@ -8,3 +8,10 @@
 /* Keep the RosieAVYTRIX wordmark inside the compact sidebar. */
 @media(min-width:1001px){.brand{font-size:12px;letter-spacing:.4px;gap:7px}.brand .logo{width:28px;flex:0 0 28px}.brand .lab{font-size:7px;letter-spacing:.3px}}
 @media(max-width:650px){.brand{font-size:14px;letter-spacing:.5px;gap:9px}}
+
+/* Persistent location for returning to the public portfolio. */
+.portfolio-bar{padding:7px 40px;background:#fff;border-bottom:1px solid var(--line)}
+.portfolio-return{display:inline-flex;align-items:center;min-height:44px;padding:0 13px;border:1px solid var(--line);border-radius:7px;background:#f7f9fc;color:var(--blue);font-size:12px;font-weight:500;text-decoration:none}
+.portfolio-return:hover{background:#edf3ff}
+@media(max-width:1180px){.portfolio-bar{padding-inline:24px}}
+@media(max-width:650px){.portfolio-bar{padding:6px 20px}}
