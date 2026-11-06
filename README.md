@@ -5,7 +5,7 @@
 
 Một workspace nhỏ để theo dõi cơ hội hợp tác, giai đoạn và bước tiếp theo.
 
-**[Mở bản chạy thử ↗](https://rosieavytrix-partner-desk.phuongleproea.chatgpt.site)** · [Project Brief](https://rosieavytrix-project-brief.phuongleproea.chatgpt.site) · [Đề xuất hợp tác](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new)
+**[Mở bản chạy thử ↗](https://rosieavytrix.github.io/avytrix-partner-desk/)** · [Project Brief](https://rosieavytrix.github.io/avytrix-project-brief/) · [Đề xuất hợp tác](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new)
 
 </div>
 
@@ -29,7 +29,7 @@ Nháp được lưu trên trình duyệt. Dùng **Xóa dữ liệu** để bắt
 
 ## Nhận diện thương hiệu
 
-Tên giao diện, nội dung xuất và liên kết GitHub đã đồng bộ thành **RosieAVYTRIX**. URL demo sử dụng tiền tố `rosieavytrix`. Khóa lưu nháp vẫn giữ nguyên, nhưng nháp thuộc hostname cũ không tự chuyển sang hostname mới. Xuất bản sao tại URL cũ nếu bạn vẫn đang mở trang đó và cần giữ nội dung.
+Tên giao diện, nội dung xuất và liên kết GitHub đã đồng bộ thành **RosieAVYTRIX**. Bản demo chính thức chạy miễn phí trên GitHub Pages dưới tên `rosieavytrix.github.io`. Nháp lưu trên trình duyệt tại hostname cũ không tự chuyển sang hostname mới.
 
 ## Tính năng
 
@@ -108,3 +108,7 @@ Kiểm tra trình duyệt: tạo cơ hội, sửa giai đoạn, tổng quan cậ
 ## Hợp tác cùng RosieAVYTRIX
 
 [Chia sẻ bài toán của bạn](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new): quy trình hiện tại, người sử dụng, kết quả mong muốn và phạm vi thử nghiệm.
+
+## Xuất bản với GitHub Pages
+
+GitHub Actions chạy `npm test`, đóng gói riêng thư mục `dist/` và triển khai lên GitHub Pages sau mỗi thay đổi mã nguồn trên `main`. Trong Settings → Pages, nguồn xuất bản là **GitHub Actions**. Các đường dẫn asset dùng đường dẫn tương đối để chạy được dưới đường dẫn repo.
