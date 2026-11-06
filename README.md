@@ -114,3 +114,7 @@ Kiểm tra trình duyệt: tạo cơ hội, sửa giai đoạn, tổng quan cậ
 ## Xuất bản với GitHub Pages
 
 GitHub Actions chạy `npm test`, đóng gói riêng thư mục `dist/` và triển khai lên GitHub Pages sau mỗi thay đổi mã nguồn trên `main`. Trong Settings → Pages, nguồn xuất bản là **GitHub Actions**. Các đường dẫn asset dùng đường dẫn tương đối để chạy được dưới đường dẫn repo.
+
+## Giao diện thống nhất
+
+Dark mode graphite–champagne dùng chung giữa portfolio và hai demo. Nút portfolio và demo điều hướng trong cùng tab; các liên kết mã nguồn vẫn mở tab mới khi có chỉ định. Bản in Project Brief có nền sáng riêng.
