@@ -5,7 +5,7 @@
 
 Một workspace nhỏ để theo dõi cơ hội hợp tác, giai đoạn và bước tiếp theo.
 
-**[Mở bản chạy thử ↗](https://avytrix-partner-desk.phuongleproea.chatgpt.site)** · [Project Brief](https://avytrix-project-brief.phuongleproea.chatgpt.site) · [Đề xuất hợp tác](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new)
+**[Mở bản chạy thử ↗](https://rosieavytrix-partner-desk.phuongleproea.chatgpt.site)** · [Project Brief](https://rosieavytrix-project-brief.phuongleproea.chatgpt.site) · [Đề xuất hợp tác](https://github.com/RosieAVYTRIX/RosieAVYTRIX/issues/new)
 
 </div>
 
@@ -29,7 +29,7 @@ Nháp được lưu trên trình duyệt. Dùng **Xóa dữ liệu** để bắt
 
 ## Nhận diện thương hiệu
 
-Tên giao diện, nội dung xuất và liên kết GitHub đã đồng bộ thành **RosieAVYTRIX**. URL hosting và khóa lưu nháp được giữ để các bản nháp hiện có tiếp tục sử dụng.
+Tên giao diện, nội dung xuất và liên kết GitHub đã đồng bộ thành **RosieAVYTRIX**. URL demo sử dụng tiền tố `rosieavytrix`. Khóa lưu nháp vẫn giữ nguyên, nhưng nháp thuộc hostname cũ không tự chuyển sang hostname mới. Xuất bản sao tại URL cũ nếu bạn vẫn đang mở trang đó và cần giữ nội dung.
 
 ## Tính năng
 
